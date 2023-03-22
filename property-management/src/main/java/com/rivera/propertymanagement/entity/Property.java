@@ -24,6 +24,18 @@ public class Property {
     private Double price;
     private String address;
 
+    @ManyToOne(fetch =  FetchType.LAZY) // It will not fetch the user data while fetching property
+    @JoinColumn(name="USER_ID", nullable = false)
+    private User user;
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
