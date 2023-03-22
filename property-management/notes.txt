@@ -1,0 +1,5 @@
+http://localhost:8080/v3/api-docs
+http://localhost:8080/swagger-ui/index.html
+https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html
+http://localhost:8080/actuator
+http://localhost:8080/actuator/health
