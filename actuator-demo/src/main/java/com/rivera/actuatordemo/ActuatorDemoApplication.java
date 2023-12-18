@@ -1,13 +1,13 @@
-package com.rivera.propertymanagement;
+package com.rivera.actuatordemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PropertyManagementApplication {
+public class ActuatorDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PropertyManagementApplication.class, args);
+		SpringApplication.run(ActuatorDemoApplication.class, args);
 	}
 
 }

@@ -1,13 +1,13 @@
-package com.rivera.propertymanagement;
+package com.rivera.restservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PropertyManagementApplication {
+public class RestServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PropertyManagementApplication.class, args);
+		SpringApplication.run(RestServiceApplication.class, args);
 	}
 
 }
